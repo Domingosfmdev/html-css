@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Voce está vendo a imagem completa? <br> Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+    <img src="imagens/Bella da Semana-1900.jpg" width="1000px" alt="mulherlinda">
+
+    <h1>exemplo de imagens flexíveis</h1>
+    <picture>
+        <source media="(max-width: 770px)" srcset="bella400.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="bella700.jpg" type="image/jpg">
+        <img src="bella1000.jpg" alt="image flexivel">
+    </picture>
+</body>
+</html>

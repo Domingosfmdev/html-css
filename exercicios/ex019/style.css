@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #488d69;
+}
+
+/*identification
+    h1# or #tag
+    class em html em css é ponto
+*/
+
+#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+    
+h2 {
+    color: #334d31;
+    font-weight: bolder;
+}
+
+.basico{
+    color: rgba(0, 0, 255, 0.772);
+}
+
+.intermediario {
+    color: rgb(172, 172, 108);
+    font-weight: lighter;
+}
+
+.avançado {
+    color: red;
+    font-weight: 300;
+}
+
+.destaque {
+    background-color: rgb(241, 241, 176);
+}

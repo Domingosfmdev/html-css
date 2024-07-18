@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <hi>Imagem dinâmica</hi>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou sismplismente aumente o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzinho Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/owanttoeat.mp3" controls loop></audio>
+    <!--mp3 w4v ogg supported media format-->
+    <audio preload="metadata" none>
+        <source src="midia/owanttoeat.mp3" type="audio/mpeg">
+        <source src="midia/owanttoeat.ogg" type="audio/ogg">
+        <source>
+        <source src="midia/owanttoeat.wav" type="audio/wav"><!--caution ! this format has more bits than mp3 and ogg. it can slower your website -->
+    </audio>
+    <p> Infelizmente seu navegador não consegue reproduzir áudio<a href="midia/owanttoeat.mp3" target="_blank ">clique aqui para baixar o arquivo</a>
+    </p>
+    <!--formatos de video mp4 m4v webm ogg/ogv-->
+</body>
+</html>
