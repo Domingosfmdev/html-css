@@ -1,0 +1,9 @@
+@charset 'utf-8';
+
+body {
+    background-image: url('imagens/wallpaper001.jpg');
+    /*tamanho do plano de fundo*/
+    background-size: 100px 100px;
+    /*repeat / norepeat / repeat y / repeat -x*/
+    background-repeat: no-repeat;
+}
