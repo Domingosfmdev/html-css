@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+h1 {
+    text-align: center;
+}
+
 body {
     font-family: arial;
 }
@@ -7,16 +11,54 @@ body {
 table {
     width: 600px;
     border-collapse: collapse;
+    margin: auto;
+    max-width: 800px;
+    position: relative;
 }
 
 td, th {
-    border: 1px solid black;
+    border: none;
     padding: 10px;
+    text-align: center;
 }
 
-thead {
-    background-color: gray;
+caption {
+    font-size: 2em;
+    font-weight: 10px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: rgb(59, 58, 58);
     color: white;
+    text-decoration: uppercase;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color:  rgb(59, 58, 58);
+}
+
+/*
+    menu fixo
+    table position relative
+    thead>tr>th position sticky
+    top=-1px
+*/
+
+/*nth:child(2n or 2n-1 or odd/even =pular casas ou impar/par)*/
+tbody >tr:nth-child(odd) {
+    background-image: linear-gradient(to left,rgba(255, 0, 0, 0.522) 20%, black) ;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+tbody > tr:nth-child(even) {
+    color: white;
+    background-image: linear-gradient(to left,rgba(255, 0, 0, 0.522) 60%, black) ;
 }
 
 .num {
