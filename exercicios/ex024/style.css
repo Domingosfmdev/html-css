@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/*soberana
+inline
+padrão
+*/
+iframe {
+    width: 400px;
+    height: 400px;
+    border: 3px dashed red;
+}
