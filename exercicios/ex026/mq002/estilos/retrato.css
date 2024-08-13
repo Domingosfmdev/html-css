@@ -1,12 +1,8 @@
 @charset "UTF-8";
 /*aparelho em pé*/
 
-html, body {
-    height: 100vh;
-    background-color: #233eff;
-    width: 100vh;
-    background-size: contain;
-    background-repeat:no-repeat ;
+h1 {
+    color: green;
 }
 
 body {
