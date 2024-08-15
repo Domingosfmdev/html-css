@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 /*todas as demais midias*/
-/*typical device breakpoint
+/*
+typical device breakpoint
+
 pequenas telas 320px / 480px/ 600px
 cel até 480px -768px
 tablet 768px - 993px - 1024px
 desktop 992px 1024px - 1200px
 tv telas acima de 1200px
 grandes telas
+
 */
 
 @media print {
