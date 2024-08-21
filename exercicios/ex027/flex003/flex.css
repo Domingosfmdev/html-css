@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+div.container {
+    margin-top: 4em;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: column nowrap;        
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+article div.container:nth-child(2) {
+    flex-flow: column wrap;
+    height: 100px;
+}
+
+article div.container:nth-child(3) {
+    flex-flow: column wrap-reverse;
+    height: 100px;
+}
+
+article div.container:nth-child(4) {
+    flex-flow: column-reverse nowrap; 
+    height: 200px;
+}
+
+article div.container:nth-child(5) {
+    flex-flow: column-reverse wrap; 
+    height: 100px;
+}
+
+article div.container:nth-child(6) {
+    flex-flow: column-reverse wrap-reverse; 
+    height: 100px;
+}
+
+article div.container:nth-child(7) {
+    flex-flow: row nowrap; 
+}
+
+article div.container:nth-child(8) {
+    flex-flow: row wrap; 
+}
+
+article div.container:nth-child(9) {
+    flex-flow: row wrap-reverse; 
+}
+
+article div.container:nth-child(10) {
+    flex-flow: row-reverse nowrap; 
+}
+
+article div.container:nth-child(11) {
+    flex-flow: row-reverse wrap; 
+}
+
+article div.container:nth-child(12) {
+    flex-flow: row-reverse wrap-reverse; 
+}
+
+ 
