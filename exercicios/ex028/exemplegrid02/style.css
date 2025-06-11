@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 40px 60% 1fr;
+    gap: 5px;
+   height: 96vh;
+   max-width: 90%;
+   margin:10px auto ;
+   
+}
+
+div {
+    color: blue;
+    text-align: center;
+    
+    font-weight: bolder;
+    background-color: rgba(255, 204, 0, 0.615);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.topo2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.topo3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    font-size: 0.8em;
+    text-align: center;
+    align-items: center;
+    place-content: center;
+    align-items: center;
+}
+
+.topo3 p{
+    max-width: 300px;
+    margin: auto;
+}
+
+
+.topo4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.topo5{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
