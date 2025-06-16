@@ -8,8 +8,8 @@
 
 main {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 40px 60% 1fr;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 80px 40px 200px 40px;
     gap: 5px;
    height: 96vh;
    max-width: 90%;
@@ -31,14 +31,14 @@ div {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 3;
 }
 
 .topo2{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 3;
 
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +50,7 @@ div {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
 
     font-size: 0.8em;
     text-align: center;
@@ -68,13 +68,13 @@ div {
 .topo4{
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .topo5{
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 3;
 }
